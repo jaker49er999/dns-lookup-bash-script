@@ -95,3 +95,9 @@ dig_domain
 else
 echo "Please enter a valid FQDN. ie:('google.com')"
 fi
+sudo yum update
+sudo yum -y install git 
+sudo yum -y install bind-utils
+sudo yum -y install telnet
+sudo yum -y install whois
+sudo yum -y install nc
