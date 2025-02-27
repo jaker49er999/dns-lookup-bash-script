@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/bin/bashecho "alias dg='bash $(pwd)/dt.sh'" >> ~/.bashrc
+source ~/.bashrc
 function dig_domain () {
 #dig +trace domain
 echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
